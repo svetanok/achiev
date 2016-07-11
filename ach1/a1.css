@@ -1,0 +1,22 @@
+/*
+    Определия стилей для какой-то одной ачивки
+*/
+
+.ach1::before
+{
+    background: rgb(243, 248, 250) url("../ach1/ach1.png") no-repeat 50% 50%;
+
+    border: solid rgb(127, 165, 183) 5px;
+}
+
+.ach1::after
+{
+    border: solid rgb(127, 165, 183) 5px;
+}
+
+.ach1 div
+{
+    background: rgb(243, 248, 250);
+
+    color: rgb(127, 165, 183);
+}

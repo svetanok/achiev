@@ -1,0 +1,22 @@
+/*
+    Определия стилей для какой-то одной ачивки
+*/
+
+.ach3::before
+{
+    background: yellow url("../ach3/ach3.jpg") no-repeat 50% 50%;
+
+    border: solid red 5px;
+}
+
+.ach3::after
+{
+    border: solid red 5px;
+}
+
+.ach3 div
+{
+    background: yellow;
+
+    color: red;
+}

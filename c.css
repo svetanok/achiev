@@ -1,0 +1,86 @@
+/*	
+	с.css
+	Общие определия стилей
+*/
+.ach
+{
+	width: 102px; 
+	height: 102px; 
+
+	margin: 0;
+	padding: 0;
+	
+	position: relative;
+
+	display: inline-block;
+}
+
+.ach::before 
+{
+    background-origin: padding-box;
+
+	width: 90px; 
+	height: 90px; 
+	
+	content: "";
+
+	border-radius: 100%;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.ach::after
+{
+
+    background-origin: padding-box;
+
+	width: 30px; 
+	height: 30px; 
+	
+	content: "";
+
+    border-radius: 100%;
+
+    
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+	z-index: -1;
+}
+
+.wo::after 
+{
+	display: none;
+}
+
+.ach div
+{
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+
+	content: "";
+
+    border-radius: 100%;
+
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+
+	text-align: center;
+
+	vertical-align: middle;
+}
+
+p
+{
+	width: 80%;
+
+	margin: 1em;
+}
